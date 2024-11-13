@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider</title>
+    <!-- link swiper JS CSS , use swiper from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="design_card_slider.css">
+    
+</head>
+<body>
+    <!-- outer box ,slider-container, card list , card  -->
+     <div class="container swiper">
+        <div class="slider_wrapper">
+            <div class="card_list swiper-wrapper">
+                <div class="card_item swiper-slide">
+                    <img src="./images/avatar1.avif" alt="user image" class="user_image">
+                    <h2 class="user_name">James Willam</h2>
+                    <p class="user_job">Software</p>
+                    <button class="message_button">Message</button>
+                </div>
+
+                <div class="card_item swiper-slide">
+                    <img src="./images/avatar2.avif" alt="user image" class="user_image">
+                    <h2 class="user_name">Michael Brown</h2>
+                    <p class="user_job">CEO</p>
+                    <button class="message_button">Message</button>
+                </div>
+
+                <div class="card_item swiper-slide">
+                    <img src="./images/avatar3.jpg" alt="user image" class="user_image">
+                    <h2 class="user_name">Mr Bond</h2>
+                    <p class="user_job">Explorer</p>
+                    <button class="message_button">Message</button>
+                </div>
+
+                <div class="card_item swiper-slide">
+                    <img src="./images/avatar4.avif" alt="user image" class="user_image">
+                    <h2 class="user_name">Dr. James</h2>
+                    <p class="user_job">Doctor</p>
+                    <button class="message_button">Message</button>
+                </div>
+
+                <div class="card_item swiper-slide">
+                    <img src="./images/avatar5.jfif" alt="user image" class="user_image">
+                    <h2 class="user_name">Harry </h2>
+                    <p class="user_job">Singer</p>
+                    <button class="message_button">Message</button>
+                </div> 
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+     </div>
+
+    
+    <!-- Linking swiper JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Linking external custom js -->
+    <script src="scripting_card_slider.js"></script>
+</body>
+</html>
